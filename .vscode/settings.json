@@ -46,5 +46,14 @@
     "variant": "cpp",
     "vector": "cpp",
     "__config": "cpp"
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.dSYM/**": true
   }
 }
