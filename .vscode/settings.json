@@ -58,6 +58,12 @@
 
   // vscode Intellisense use c++20 standard
   "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.formatting": "clangFormat",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true
+  },
 
   "code-runner.executorMap": {
     // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
