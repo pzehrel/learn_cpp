@@ -14,4 +14,4 @@
 
 编辑器使用 vscode，可以使用 debugger(F5) 进行编译运行，也可以使用 [code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) 插件进行编译运行。
 
-两种编译运行方式的表现均已设置为一致。
+两种编译运行方式的表现均已设置为一致，但建议直接使用 F5 进行调试。
