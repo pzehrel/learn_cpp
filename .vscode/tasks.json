@@ -14,12 +14,12 @@
         "-fansi-escape-codes",
         "-g",
         "-std=c++20",
-        "${file}",
+        ".${/}${relativeFile}",
         "-o",
-        "${fileDirname}/.build/${fileBasenameNoExtension}"
+        "${fileDirname}${/}.build${/}${fileBasenameNoExtension}"
       ],
       "options": {
-        "cwd": "${fileDirname}"
+        "cwd": "${workspaceFolder}"
       },
       "problemMatcher": [
         "$gcc"
@@ -36,12 +36,12 @@
     {
       "type": "shell",
       "label": "C/C++: 运行活动文件",
-      "command": "${fileDirname}/.build/${fileBasenameNoExtension} && echo",
+      "command": ".${/}.build${/}${fileBasenameNoExtension} && echo ",
       "options": {
         "cwd": "${fileDirname}"
       },
       "presentation": {
-        "echo": true,
+        "echo": false,
         "reveal": "always",
         "focus": false,
         "panel": "shared",
