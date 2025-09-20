@@ -45,7 +45,8 @@
     "unordered_map": "cpp",
     "variant": "cpp",
     "vector": "cpp",
-    "__config": "cpp"
+    "__config": "cpp",
+    "algorithm": "cpp"
   },
 
   "files.exclude": {
