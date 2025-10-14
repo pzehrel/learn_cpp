@@ -46,7 +46,8 @@
     "variant": "cpp",
     "vector": "cpp",
     "__config": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "iomanip": "cpp"
   },
 
   "files.exclude": {
