@@ -47,7 +47,9 @@
     "vector": "cpp",
     "__config": "cpp",
     "algorithm": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "cstddef": "cpp",
+    "memory": "cpp"
   },
 
   "files.exclude": {
